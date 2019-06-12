@@ -35,6 +35,7 @@
         *	[MCMC What’s New](http://support.sas.com/documentation/cdl/en/statug/66859/HTML/default/viewer.htm#statug_whatsnew_sect019.htm)
             *	The MCMC procedure is now multithreaded and can take advantage of multiple processors. The NTHREADS= option in the PROC MCMC statement specifies the number of threads for simulation. When sampling model parameters, PROC MCMC allocates data into different threads and calculates the objective function by accumulating values from each one. When sampling random-effects parameters and missing data variables, PROC MCMC generates a subset of these parameters on individual threads simultaneously at each iteration. Most sampling algorithms are threaded. By default, NTHREADS=1.
             *	PROC MCMC now permits parameters (or functions of parameters) in all truncated distributions (LOWER= and UPPER= options) in both the PRIOR and the MODEL statements.
+        * Introduced [PROC BCHOICE](http://support.sas.com/documentation/cdl/en/statug/66859/HTML/default/viewer.htm#statug_bchoice_overview.htm) - a procedure for performing Bayesian analysis for discrete choice models.        
     *	13.2
         *	[SAS/STAT](http://support.sas.com/documentation/onlinedoc/stat/index.html#stat132)
         *	[MCMC What’s New](http://support.sas.com/documentation/cdl/en/statug/67523/HTML/default/viewer.htm#statug_whatsnew_sect018.htm)
@@ -61,11 +62,12 @@
         * [SAS/STAT](http://support.sas.com/documentation/onlinedoc/stat/index.html#stat151)
         * [MCMC What's New](https://documentation.sas.com/?docsetId=statug&docsetTarget=statug_whatsnew_sect019.htm&docsetVersion=15.1&locale=en)
             * The CMPTMODEL statement in PROC MCMC fits one-, two-, and three-compartment models to subjects who are in steady-state conditions.
-        * Introduced [Proc BGLIMM](https://go.documentation.sas.com/?docsetId=statug&docsetVersion=15.1&docsetTarget=statug_bglimm_overview.htm&locale=en) - a high-performance, sampling-based procedure that provides Bayesian inference for generalized linear mixed models (GLMMs)
+        * Introduced [PROC BGLIMM](https://go.documentation.sas.com/?docsetId=statug&docsetVersion=15.1&docsetTarget=statug_bglimm_overview.htm&locale=en) - a high-performance, sampling-based procedure that provides Bayesian inference for generalized linear mixed models (GLMMs)
           * PROC BGLIMM uses syntax similar to that of PROC MIXED and PROC GLIMMIX in specifying a GLMM. You use the MODEL statement to specify the distribution and link function, the RANDOM statement to specify the random effects, the CLASS statement to specify categorical variables, the REPEATED statement to specify the correlation of longitudinal responses, and the ESTIMATE statements for inferences. PROC BGLIMM draws samples from the target distributions, computes summary and diagnostic statistics, and saves the posterior samples in an output data set that you can use for further analysis.
 
 ## Very Important Sections of the Documentation for the Latest Release
 *	[Introduction to Bayesian Analysis Procedures](https://documentation.sas.com/?docsetId=statug&docsetTarget=statug_introbayes_toc.htm&docsetVersion=15.1&locale=en)
+    * [A Bayesian Reading List](https://go.documentation.sas.com/?docsetId=statug&docsetTarget=statug_introbayes_sect045.htm&docsetVersion=15.1&locale=en)
 *	[Overview: PROC MCMC](https://documentation.sas.com/?docsetId=statug&docsetTarget=statug_mcmc_overview.htm&docsetVersion=15.1&locale=en)
 *	[Getting Started](https://documentation.sas.com/?docsetId=statug&docsetTarget=statug_mcmc_gettingstarted.htm&docsetVersion=15.1&locale=en)
 *	[Details](https://documentation.sas.com/?docsetId=statug&docsetTarget=statug_mcmc_details.htm&docsetVersion=15.1&locale=en)
@@ -97,6 +99,10 @@
 *  [Doing Bayesian Data Analysis, Second Edition: A Tutorial with R, JAGS, and Stan](https://sites.google.com/site/doingbayesiandataanalysis/purchase)
 *  ![Image of DBDA Bookcover](https://9b8e0032-a-62cb3a1a-s-sites.googlegroups.com/site/doingbayesiandataanalysis/what-s-new-in-2nd-ed/CoverDBDA2E-FrontOnly-600wide.png?attachauth=ANoY7cpkCotcE4ULP-HhvTJ0t0gLh2DeWMZVWVifu5VeYU27FpBgDJoJOXu7D8hgn2GWPgUkZ5Gq6E7sxLDJgmgBNwiUyX2yJJot7hm70syr6hx1yUkpEcGCZVl3MLTKElNgp5_xpK451n11z8Np-EFJKyR2LMZEUEiND1CuhjiEDmsO4bS6vEUsnk9SeLnHXfONPpzP3XOyiIdDvFqr1W6ho0RuEGDfdBvICE3HdRO8dmFfNtcZXRjPYayWMuZPgr3XBKJj-FbyLcGiA0BtExnrfkynoo_wpgDrYrRmTYdNldZaPPZPhB4%3D&attredirects=0)
 *  ![R Package Relationship](./osPackageRelationship25p.JPG)
+
+## A New Favorite Book!
+* [Bayesian Statistics The Fun Way](https://nostarch.com/learnbayes)
+* ![Image of BSTFW Bookcover](https://nostarch.com/sites/default/files/styles/uc_product_full/public/BayesianStats_front.png?itok=0yWC__z9)
 
 ## Good Bayesian Blogs
 *  [Count Bayesie - Probably a Probability Blog](https://www.countbayesie.com)
