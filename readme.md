@@ -1,12 +1,13 @@
-# PROC MCMC Notes
-* [Version History With Details](#version-history-with-details)
+# My Bayesian Software Notes - Table of Contents
+* [SAS PROC MCMC Version History With Details](#sas-proc-mcmc-version-history-with-details)
 * [Very Important Sections of the Documentation](#very-important-sections-of-the-documentation-for-the-latest-release)
 * [Key Presentations](#key-presentations)
 * [SAS Classroom Training](#sas-classroom-training)
 * [My Favorite Bayesian Book for Foundational Skills](#my-favorite-bayesian-book-for-foundational-skills)
+  * [A New Favorite Book](#a-new-favorite-book!)
 * [Good Bayesian Blogs](#good-bayesian-blogs)
 
-## Version History with Details
+## SAS PROC MCMC Version History with Details
 *	9.2
     *	[SAS/STAT](http://support.sas.com/documentation/onlinedoc/stat/index.html#statprev)
     *	[MCMC is NEW](http://support.sas.com/documentation/cdl/en/statug/63033/HTML/default/viewer.htm#statug_whatsnew_sect024.htm)
