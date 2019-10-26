@@ -4,7 +4,7 @@
 * [Key Presentations](#key-presentations)
 * [SAS Classroom Training](#sas-classroom-training)
 * [My Favorite Bayesian Book for Foundational Skills](#my-favorite-bayesian-book-for-foundational-skills)
-  * [A New Favorite Book](#a-new-favorite-book!)
+  * [A New Favorite Book](#a-new-favorite-book)
 * [Good Bayesian Blogs](#good-bayesian-blogs)
 
 ## SAS PROC MCMC Version History with Details
