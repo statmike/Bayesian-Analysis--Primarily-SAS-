@@ -66,7 +66,7 @@
         * Introduced [PROC BGLIMM](https://go.documentation.sas.com/?docsetId=statug&docsetVersion=15.1&docsetTarget=statug_bglimm_overview.htm&locale=en) - a high-performance, sampling-based procedure that provides Bayesian inference for generalized linear mixed models (GLMMs)
           * PROC BGLIMM uses syntax similar to that of PROC MIXED and PROC GLIMMIX in specifying a GLMM. You use the MODEL statement to specify the distribution and link function, the RANDOM statement to specify the random effects, the CLASS statement to specify categorical variables, the REPEATED statement to specify the correlation of longitudinal responses, and the ESTIMATE statements for inferences. PROC BGLIMM draws samples from the target distributions, computes summary and diagnostic statistics, and saves the posterior samples in an output data set that you can use for further analysis.
 
-## Very Important Sections of the Documentation for the Latest Release
+## Very Important Sections of the PROC MCMC Documentation for the Latest Release
 *	[Introduction to Bayesian Analysis Procedures](https://documentation.sas.com/?docsetId=statug&docsetTarget=statug_introbayes_toc.htm&docsetVersion=15.1&locale=en)
     * [A Bayesian Reading List](https://go.documentation.sas.com/?docsetId=statug&docsetTarget=statug_introbayes_sect045.htm&docsetVersion=15.1&locale=en)
 *	[Overview: PROC MCMC](https://documentation.sas.com/?docsetId=statug&docsetTarget=statug_mcmc_overview.htm&docsetVersion=15.1&locale=en)
@@ -82,6 +82,10 @@
     *	[Displayed Output](https://documentation.sas.com/?docsetId=statug&docsetTarget=statug_mcmc_details78.htm&docsetVersion=15.1&locale=en)
     * [Compartment Models](https://documentation.sas.com/?docsetId=statug&docsetTarget=statug_mcmc_details44.htm&docsetVersion=15.1&locale=en)
 *	[Examples](https://documentation.sas.com/?docsetId=statug&docsetTarget=statug_mcmc_examples.htm&docsetVersion=15.1&locale=en)
+
+## SAS PROCs beyond PROC MCMC
+There are bayesian capabilities built into SAS PROCs beyond the general purpose PROC MCMC. 
+*   [Bayesian Analysis Using SAS/STAT Software](https://support.sas.com/rnd/app/Bayesian/index.html)
 
 ## Key Presentations
 *	[The RANDOM Statement and More: Moving On with PROC MCMC](https://support.sas.com/resources/papers/proceedings11/334-2011.pdf)
